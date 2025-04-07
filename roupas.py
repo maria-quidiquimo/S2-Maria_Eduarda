@@ -1,8 +1,8 @@
 def calcular_preco(produto):
-
-
-
-    
+    if produto == "camiseta":
+        return 50
+    elif produto == "Calça":
+        return 100
     elif produto == "tênis":
         return 150
     elif produto == "jaqueta":
@@ -11,11 +11,11 @@ def calcular_preco(produto):
         return -1  # Retorna -1 para indicar que o produto não foi encontrado
 
 # Menu de opções para o cliente escolher
-
-
+print("Bem vindo(a) à nossa loja de roupas!")
+print("Escolha a roupa que deseja comprar")
 print("1. Camiseta")
 print("2. Calça")
-
+print("3. Tênis")
 print("4. Jaqueta")
 
 # Solicitar ao cliente a escolha do produto
